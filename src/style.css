@@ -8,8 +8,9 @@ a:hover {
 }
 
 .recipesLinks {
-  text-align: justify;
-  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
