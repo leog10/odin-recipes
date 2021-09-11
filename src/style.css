@@ -1,0 +1,93 @@
+a {
+  font-size: 23px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.recipesLinks {
+  text-align: justify;
+  margin-left: 300px;
+}
+
+h1 {
+  margin-top: 0px;
+  text-align: center;
+  color: rgba(99, 2, 2, 0.89);
+  font-size: 42px;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(99, 2, 2, 0.89);
+}
+
+h3 {
+  text-align: center;
+  color: rgba(99, 2, 2, 0.89);
+}
+
+p {
+  text-align: center;
+}
+
+.description {
+  margin: 0 auto;
+  width: 600px;
+  font-weight: bold;
+}
+
+.img-container {
+  margin: 60px 0px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.prepInfo {
+  justify-self: center;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 1px rgba(119, 118, 118, 0.637);
+  padding: 20px 0px;
+  margin-left: 50px;
+}
+
+.prepUl {
+  height: 178px;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.prepUl li {
+  list-style: none;
+  line-height: 30px;
+}
+
+.box {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  background-color: rgba(243, 237, 237, 0.623);
+  border-radius: 25px;
+  box-shadow: 0px 0px 55px 10px rgba(199, 197, 197, 0.596);
+}
+
+.ingredients {
+  display: inline-block;
+  width: auto;
+  margin: 0 auto;
+}
+
+.steps {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.box li {
+  margin: 5px auto;
+}
